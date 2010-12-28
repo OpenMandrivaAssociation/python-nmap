@@ -1,7 +1,7 @@
 Summary:	Use nmap and access scan results from python
 Name:		python-nmap
-Version:	0.1.4
-Release:	%mkrel 2
+Version:	0.2.2
+Release:	%mkrel 1
 Source0:	http://xael.org/norman/python/%{name}/%{name}-%{version}.tar.gz
 Group:		Development/Python
 License:	GPLv3+
