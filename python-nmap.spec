@@ -1,14 +1,13 @@
 Summary:	Use nmap and access scan results from python
 Name:		python-nmap
 Version:	0.2.2
-Release:	%mkrel 1
+Release:	2
 Source0:	http://xael.org/norman/python/%{name}/%{name}-%{version}.tar.gz
 Group:		Development/Python
 License:	GPLv3+
 URL:		http://xael.org/norman/python/python-nmap/
 BuildArch:	noarch
 %py_requires -d
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 python-nmap is a python library which helps in using nmap port scanner.
@@ -26,15 +25,26 @@ to a callback function defined by the user.
 #nothing to do
 
 %install
-%{__rm} -rf %{buildroot}
 %{__python} setup.py install \
 	--root=%{buildroot} \
 
-%clean
-%{__rm} -rf %{buildroot}
-
 %files
-%defattr(-,root,root,-)
 %doc README.txt CHANGELOG
 %{python_sitelib}/nmap/
-%{python_sitelib}/python_nmap-%{version}-py%{pyver}.egg-info
+%{python_sitelib}/python_nmap-%{version}-py%{py_ver}.egg-info
+
+
+%changelog
+* Tue Dec 28 2010 Guillaume Rousse <guillomovitch@mandriva.org> 0.2.2-1mdv2011.0
++ Revision: 625614
+- update to new version 0.2.2
+
+* Fri Oct 29 2010 Michael Scherer <misc@mandriva.org> 0.1.4-2mdv2011.0
++ Revision: 590103
+- rebuild for python 2.7
+
+* Sun Jul 11 2010 Jani Välimaa <wally@mandriva.org> 0.1.4-1mdv2011.0
++ Revision: 550908
+- import python-nmap
+
+
