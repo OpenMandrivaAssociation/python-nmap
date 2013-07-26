@@ -1,8 +1,8 @@
 Summary:	Use nmap and access scan results from python
 Name:		python-nmap
-Version:	0.2.2
-Release:	2
-Source0:	http://xael.org/norman/python/%{name}/%{name}-%{version}.tar.gz
+Version:	0.2.7
+Release:	1
+Source0:	http://xael.org/norman/python/python-nmap/%{name}-%{version}.tar.gz
 Group:		Development/Python
 License:	GPLv3+
 URL:		http://xael.org/norman/python/python-nmap/
@@ -46,5 +46,6 @@ to a callback function defined by the user.
 * Sun Jul 11 2010 Jani Välimaa <wally@mandriva.org> 0.1.4-1mdv2011.0
 + Revision: 550908
 - import python-nmap
+
 
 
