@@ -7,7 +7,7 @@ Group:		Development/Python
 License:	GPLv3+
 URL:		http://xael.org/norman/python/python-nmap/
 BuildArch:	noarch
-%py_requires -d
+BuildRequires: python-devel
 
 %description
 python-nmap is a python library which helps in using nmap port scanner.
