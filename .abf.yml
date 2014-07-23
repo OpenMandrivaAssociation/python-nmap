@@ -2,5 +2,6 @@ removed_sources:
   python-nmap-0.2.2.tar.gz: fe8741392703c206ff642ac75ead6ab9d4ec2a52
   python-nmap-0.2.7.tar.gz: 25122774a6cc14762ab6e47c8e362762e3fad7d6
   python-nmap-0.3.2.tar.gz: d1ac75711fbefdf87a4837515496f29a9d559a5d
-sources:
   python-nmap-0.3.3.tar.gz: 4cc38589b649867db0ec604b4398bf46b60fb09e
+sources:
+  python-nmap-0.3.4.tar.gz: 0a3651ab41418707e53d37498d757534e4c68edf

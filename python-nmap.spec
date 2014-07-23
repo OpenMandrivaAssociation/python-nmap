@@ -1,6 +1,6 @@
 Summary:	Use nmap and access scan results from python
 Name:		python-nmap
-Version:	0.3.3
+Version:	0.3.4
 Release:	1
 Source0:	http://xael.org/norman/python/python-nmap/%{name}-%{version}.tar.gz
 Group:		Development/Python
@@ -32,22 +32,3 @@ python setup.py install \
 %doc README.txt CHANGELOG
 %{py_puresitedir}/nmap/
 %{py_puresitedir}/python_nmap-%{version}-py%{py_ver}.egg-info
-
-
-%changelog
-* Tue Dec 28 2010 Guillaume Rousse <guillomovitch@mandriva.org> 0.2.2-1mdv2011.0
-+ Revision: 625614
-- update to new version 0.2.2
-
-* Fri Oct 29 2010 Michael Scherer <misc@mandriva.org> 0.1.4-2mdv2011.0
-+ Revision: 590103
-- rebuild for python 2.7
-
-* Sun Jul 11 2010 Jani Välimaa <wally@mandriva.org> 0.1.4-1mdv2011.0
-+ Revision: 550908
-- import python-nmap
-
-
-
-
-
