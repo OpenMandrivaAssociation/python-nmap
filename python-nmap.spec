@@ -5,7 +5,7 @@ Release:	2
 Source0:	http://xael.org/norman/python/python-nmap/%{name}-%{version}.tar.gz
 Group:		Development/Python
 License:	GPLv3+
-URL:		http://xael.org/norman/python/python-nmap/
+URL:		https://xael.org/norman/python/python-nmap/
 BuildArch:	noarch
 BuildRequires: python-devel
 
